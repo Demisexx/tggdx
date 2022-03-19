@@ -1,12 +1,11 @@
 {
-  "name": "gdub",
-  "description": "",
-  "repository": "",
+  "name": "GDrive-Uploader-Bot",
+  "description": "Telegram/Direct Links to GDrive Uploader Bot",
+  "repository": "https://github.com/kjeymax/GDUPLOAD_BOT2",
   "stack": "container",
-  "logo": "https://telegra.ph/file/5c26b2c17722757384490.jpg",
   "keywords": ["Telegram", "Google Drive", "uploader"],
   "env": {
-    "ENV": { 
+    "ENV": {
       "description": "Set it to anything to enable configuration by environment variables.",
       "value": "ANYTHING"
     },
@@ -22,10 +21,6 @@
     "SUDO_USERS": {
       "description": "List of sudo users ids, seperated by space.",
       "value": "1153151858"
-    },
-    "DATABASE_URL": {
-      "description": "database",
-      "value": "postgres://nfyvpmpy:K4lFCPehCE60Qq8Y3kf9ZxHvnZRXoe5n@kashin.db.elephantsql.com/nfyvpmpy"  
     },
     "SUPPORT_CHAT_LINK": {
       "description": "Support Chat link in valid url format.",
@@ -45,7 +40,7 @@
     }
   },
    "addons": [{
-    "plan": ""
+    "plan": "heroku-postgresql"
   }],
    "buildpacks": [
     {
