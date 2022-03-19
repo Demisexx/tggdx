@@ -2,11 +2,11 @@
   "name": "gdub",
   "description": "",
   "repository": "",
+  "stack": "container",
   "logo": "https://telegra.ph/file/5c26b2c17722757384490.jpg",
   "keywords": ["Telegram", "Google Drive", "uploader"],
   "env": {
-    "ENV": {
-      "stack": "container",
+    "ENV": { 
       "description": "Set it to anything to enable configuration by environment variables.",
       "value": "ANYTHING"
     },
