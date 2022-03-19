@@ -2,12 +2,12 @@ class config:
     BOT_TOKEN = ""
     APP_ID = ""
     API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    DATABASE_URL = "postgres://nfyvpmpy:K4lFCPehCE60Qq8Y3kf9ZxHvnZRXoe5n@kashin.db.elephantsql.com/nfyvpmpy"
+    SUDO_USERS = "1153151858" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+    G_DRIVE_CLIENT_ID = "105055563750-5l8cpn7e4bbuc8m174mvnulgioleb9ii.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
+    SUPPORT_CHAT_LINK = "https://t.me/updmain"
 
 
 class BotCommands:
