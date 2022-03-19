@@ -5,8 +5,8 @@ class config:
     DATABASE_URL = "postgres://nfyvpmpy:K4lFCPehCE60Qq8Y3kf9ZxHvnZRXoe5n@kashin.db.elephantsql.com/nfyvpmpy"
     SUDO_USERS = "1153151858" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = "105055563750-5l8cpn7e4bbuc8m174mvnulgioleb9ii.apps.googleusercontent.com"
-    G_DRIVE_CLIENT_SECRET = "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"
+    G_DRIVE_CLIENT_ID = "812329198592-53cs3ue5oil0o9rnkn8grvdknk0sd2im.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
     SUPPORT_CHAT_LINK = "https://t.me/updmain"
 
 
