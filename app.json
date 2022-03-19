@@ -36,16 +36,14 @@
     },
     "DATABASE_URL": {
       "description": "Database",
-      "value": ""  
+      "value": "postgres://nfyvpmpy:K4lFCPehCE60Qq8Y3kf9ZxHvnZRXoe5n@kashin.db.elephantsql.com/nfyvpmpy"  
     },
     "G_DRIVE_CLIENT_SECRET": {
       "description": "Google Drive Client Secret from Google Cloud Platform",
       "value": ""
     }
+ 
   },
-   "addons": [{
-    "plan": ""
-  }],
    "buildpacks": [
     {
       "url": "heroku/python"
