@@ -23,6 +23,10 @@
       "description": "List of sudo users ids, seperated by space.",
       "value": "1153151858"
     },
+    "DATABASE_URL": {
+      "description": "database",
+      "value": "postgres://nfyvpmpy:K4lFCPehCE60Qq8Y3kf9ZxHvnZRXoe5n@kashin.db.elephantsql.com/nfyvpmpy"  
+    },
     "SUPPORT_CHAT_LINK": {
       "description": "Support Chat link in valid url format.",
       "value": "https://t.me/updmain"
