@@ -34,13 +34,17 @@
       "description": "Google Drive Client ID from Google Cloud Platform",
       "value": ""
     },
+    "DATABASE_URL": {
+      "description": "Database",
+      "value": ""  
+    },
     "G_DRIVE_CLIENT_SECRET": {
       "description": "Google Drive Client Secret from Google Cloud Platform",
       "value": ""
     }
   },
    "addons": [{
-    "plan": "heroku-postgresql"
+    "plan": ""
   }],
    "buildpacks": [
     {
